@@ -1,0 +1,38 @@
+
+.wrapper {
+  height: 100vh;
+}
+
+.parallax-img {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Задаем свойства элементов */
+
+body {
+  margin: 0;
+  background: #000;
+}
+
+* {
+  font-family: Candara;
+  color: white;
+}
+
+h1 {
+  margin: 15px;
+  text-align: center;
+}
+
+p {
+  margin: 15px;
+  font-size: 1.1rem;
+}
+
+.parallax-img {
+  background-image: url('https://phonoteka.org/uploads/posts/2021-06/1624023707_10-phonoteka_org-p-kosmos-oboi-krasivo-11.jpg');
+}
